@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h1>I've never seen any of these movies to be totally honest</h1>
+
+<div class="container">
+  <div class="row">
+
+    <div class="column">
+      <img src="images/crusade.png" alt="Indiana Jones and the Last Crusade Poster">
+      <h3>Indiana Jones and the Last Haiku</h3>
+      <p>Indiana Jones,<br><br>Goes on some final crusade.<br><br>and wears a fun hat.<br><br>[̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]</p>
+    </div>
+
+    <div class="column">
+      <img src="images/raiders.jpg" alt="Indiana Jones and the Lost Ark Poster">
+      <h3>Indiana Jones and the Lost Haiku</h3>
+      <p>Indiana Jones,<br><br>Finds a big boat or something<br><br>and writes poetry<br><br>( ͡° ͜ʖ ͡°)</p>
+    </div>
+
+    <div class="column">
+      <img src="images/temple.jpg" alt="Indiana Jones and the Temple of Doom Poster">
+      <h3>Indiana Jones and the Temple of Haikus that Have a Consistent Theme of Doom</h3>
+      <p>Indiana Jones,<br><br>Enters the temple of doom<br><br>and he straight up dies.<br><br>( ͡° ʖ̯ ͡°')</p>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
